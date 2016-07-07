@@ -1,0 +1,154 @@
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,div{
+    margin: 0;
+    padding:0;
+    color:  #ffffff;
+    font:"Microsoft YaHei" 18px;
+}
+ol,ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+body{
+    -webkit-background-size: 1366px;
+    background-image: url("../img/bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    z-index: 0;
+}
+.clearfix:after{
+    content: '.';
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+.mid{
+    width:980px;
+    margin: auto;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: #363742;
+    display: "";
+}
+.head div img{
+    float: left;
+    margin-right: 50px;
+}
+.head div a{
+    cursor: default;
+}
+.navLv1 li{
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    float:left;
+}
+.navLv1>li:hover{
+    background: url("../img/btn-bg.png");
+}
+.navLv2{
+    position: relative;
+    z-index: 100;
+    display: none;
+}
+.navLv2 li{
+    width: 98px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#1b1b22;
+}
+.navLv2 li a{
+    color: #fff;
+}
+.head div span{
+    display: block;
+    float: right;
+    margin-right: 40px;
+    line-height: 70px;
+}
+.body .left{
+    width: 499px;
+    height: 508px;
+    position: fixed;
+    bottom: 0;
+    background-image: url("../img/bodyleft.png");
+}
+.body .right{
+    width: 442px;
+    height: 470px;
+    margin:90px 10px 0 0;
+    float: right;
+    background-image: url("../img/bodyright.png");
+}
+.load{
+    width: 386px;
+    height: 380px;
+    float: right;
+    background-color: #ffffff;
+    margin:160px 50px 0 20px;
+    display: none;
+}
+.loadTitle{
+    height: 60px;
+    background-color: #1b1b22;
+}
+.loadTitle img{
+    float: right;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.load div:first-child span{
+    line-height: 60px;
+    margin-left: 20px;
+}
+.loadContent{
+    padding: 20px 40px;
+}
+.loadContent label{
+    display: block;
+    margin: 20px 0;
+    color: #000000;
+}
+.loadContent label h3{
+    color: #000000;
+}
+.loadContent label input{
+    width: 100%;
+    height: 30px;
+}
+.loadContent button{
+    color: #ffffff;
+    padding: 0px;
+    width:310px;
+    height: 36px;
+    background-color: #0060ff;
+    border: none;
+    border-radius: 4px;
+}
+.other{
+    width: 100%;
+}
+.other span{
+    float:left;
+    margin: 16px 40px;
+    cursor: default;
+}
+.other span a{
+    font-size: 14px;
+    color: #999999;
+}
+.other span:last-child{
+    float: right;
+}
